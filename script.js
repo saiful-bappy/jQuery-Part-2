@@ -11,26 +11,26 @@ $(".table").addClass("bappy");
 
 $(".content").addClass("another").removeClass("content");
 
-$(".clickFunction .button").click(function () {
+$(".clickFunction .button a").click(function () {
   $(".wallpaper").toggle(1000);
   return false;
 });
 
-$(".fadeFunction .button").click(function () {
+$(".fadeFunction .button a").click(function () {
   $(".wallpaperFade").fadeToggle(3000);
   return false;
 });
 
-$(".slideFunction .button").click(function () {
+$(".slideFunction .button a").click(function () {
   $(".wallpaperSlide").slideToggle(1000);
   return false;
 });
 
-$(".dblFunction .button").click(function () {
+$(".dblFunction .button a").click(function () {
   return false;
 });
 
-$(".dblFunction .button").dblclick(function () {
+$(".dblFunction .button a").dblclick(function () {
   $(".doubleClick").slideToggle(1000);
 });
 
